@@ -23,6 +23,7 @@ no Power BI.
 Arquitetura **Medallion** (Bronze → Silver → Gold), com cada camada em notebooks
 separados, pensando em uma futura orquestração via Databricks Workflows.
 
+```
 CSV (Kaggle)
 │
 ▼
@@ -39,6 +40,7 @@ Volume (Unity Catalog)
 │
 ▼
 Power BI
+```
 
 
 ### 🥉 Bronze — dado bruto
@@ -186,6 +188,13 @@ limitações de amostra e de escopo de filtro.
 
 ![Dashboard Amazon Sales Analytics](images/dashboard_overview.png)
 
+📓 [Ver exploração inicial](notebooks/01_exploracao_amazon.ipynb)
+📓 [Ver pipeline Bronze](notebooks/02_bronze_amazon.ipynb)
+📓 [Ver pipeline Silver](notebooks/03_silver_amazon.ipynb)
+📓 [Ver Gold - Categoria](notebooks/04_gold_categoria.ipynb)
+📓 [Ver Gold - Desconto](notebooks/05_gold_desconto.ipynb)
+📓 [Ver Gold - Preço](notebooks/06_amazon_gold_preco.ipynb)
+
 ## 🚀 Próximos Passos
 
 - [ ] Criar uma quarta tabela Gold cruzando categoria **e** faixa de desconto,
@@ -198,19 +207,19 @@ limitações de amostra e de escopo de filtro.
       < actual_price` como validação recorrente, não só pontual).
 
 ## 📁 Estrutura do Repositório
-
+```
 amazon-sales-analysis/
 ├── README.md
 ├── notebooks/
-│ ├── 01_exploracao_amazon.py
-│ ├── 02_bronze_amazon.py
-│ ├── 03_silver_amazon.py
-│ ├── 04_gold_categoria.py
-│ ├── 05_gold_desconto.py
-│ └── 06_gold_preco.py
+│   ├── 01_exploracao_amazon.ipynb
+│   ├── 02_bronze_amazon.ipynb
+│   ├── 03_silver_amazon.ipynb
+│   ├── 04_gold_categoria.ipynb
+│   ├── 05_gold_desconto.ipynb
+│   └── 06_amazon_gold_preco.ipynb
 └── images/
-└── dashboard_overview.png
-
+    └── dashboard_overview.png
+```
 ---
 
 **Autor:** [Igor de Souza Aguiar](https://github.com/IgorSouzDEV)  
