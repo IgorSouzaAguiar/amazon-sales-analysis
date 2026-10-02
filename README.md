@@ -189,11 +189,17 @@ limitações de amostra e de escopo de filtro.
 ![Dashboard Amazon Sales Analytics](images/dashboard_overview.png)
 
 📓 [Ver exploração inicial](notebooks/01_exploracao_amazon.ipynb)
+
 📓 [Ver pipeline Bronze](notebooks/02_bronze_amazon.ipynb)
+
 📓 [Ver pipeline Silver](notebooks/03_silver_amazon.ipynb)
+
 📓 [Ver Gold - Categoria](notebooks/04_gold_categoria.ipynb)
+
 📓 [Ver Gold - Desconto](notebooks/05_gold_desconto.ipynb)
+
 📓 [Ver Gold - Preço](notebooks/06_amazon_gold_preco.ipynb)
+
 
 ## 🚀 Próximos Passos
 
